@@ -1,8 +1,8 @@
-<!--Developer By Sowwyz#1337-->
+<!--Made by NotHouse-->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sowwyz</title>
+    <title>Plexus</title>
     <link rel="shortcut icon" href="img/sowwyz.ico" type="image/png">
 
     <style>
@@ -16,7 +16,6 @@
             height: 100vh;
             font-family: Arial, sans-serif;
         }
-        /* Sowwyz#1337 */
         .snowflake {
             position: absolute;
             top: -10px;
@@ -87,7 +86,6 @@
     <body>
         <h1><span onclick="playAudioAndRedirect()">enter.</span></h1>
 
-        <audio id="audio" src="/sao.mp3"></audio>
 
         <script>
             function createSnowflake() {
@@ -103,7 +101,7 @@
                     snowflake.remove();
                 }, (parseFloat(snowflake.style.animationDuration) + parseFloat(snowflake.style.animationDelay)) * 1000);
             }
-            /* Sowwyz#1337 */
+            
             setInterval(createSnowflake, 100);
 
             const title = document.querySelector('h1');
@@ -117,22 +115,15 @@
                 title.style.textShadow = '0 0 5px white, 0 0 10px white, 0 0 20px white, 0 0 40px white, 0 0 80px white, 0 0 160px white';
                 title.style.cursor = 'default';
             });
-            /* Sowwyz#1337 */
+          
             function playAudioAndRedirect() {
-                localStorage.setItem('isMusicPlaying', 'true');
+               
                 setTimeout(() => {
-                    window.location.href = "sowwyz.html";
-                }, 1000);
+                    window.location.href = "plexus.html";
+                }, 0);
             }
 
 
         </script>
     </body>
 </html>
-<!--Sowwyz#1337-->
-<!--Sowwyz#1337-->
-<!--Sowwyz#1337-->
-<!--Sowwyz#1337-->
-<!--Sowwyz#1337-->
-<!--Sowwyz#1337-->
-<!--Sowwyz#1337-->
